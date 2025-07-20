@@ -1,0 +1,24 @@
+{
+  "burst_config": {
+    "burst_offsets": [-70, -40, -10, 10, 40, 70],
+    "retry_interval_ms": 35,
+    "max_retry_attempts": 50,
+    "max_concurrent_requests": 10,
+    "booking_window_time": "23:00:00",
+    "cutoff_seconds": 30
+  },
+  "credentials": {
+    "username": "USERNAME",
+    "password": "PASSWORD"
+  },
+  "target_times": ["7:33", "7:42"],
+  "booking_settings": {
+    "days_in_advance": 2,
+    "golf_course_url": "https://golf.com",
+    "players": 1
+  },
+  "schedule": {
+    "run_time": "22:59:55",
+    "description": "Run 5 seconds before booking window opens"
+  }
+}
